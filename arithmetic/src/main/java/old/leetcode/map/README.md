@@ -1,0 +1,12 @@
+* https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/ (350. 两个数组的交集 II)
+* https://leetcode-cn.com/problems/valid-anagram/ (242. 有效的字母异位词)
+* https://leetcode-cn.com/problems/happy-number/ (202. 快乐数)
+* https://leetcode-cn.com/problems/word-pattern/ (290. 单词规律)
+* https://leetcode-cn.com/problems/isomorphic-strings/ (205. 同构字符串)
+* https://leetcode-cn.com/problems/sort-characters-by-frequency/(451. 根据字符出现频率排序)
+* https://leetcode-cn.com/problems/contains-duplicate-ii/ (219. 存在重复元素 II)
+
+* https://leetcode-cn.com/problems/3sum-closest/ (16. 最接近的三数之和)
+* https://leetcode-cn.com/problems/4sum-ii/ (454. 四数相加 II)
+* https://leetcode-cn.com/problems/group-anagrams/ (49. 字母异位词分组)
+* https://leetcode-cn.com/problems/number-of-boomerangs/ (447. 回旋镖的数量)

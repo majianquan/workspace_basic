@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #my-canvas {
+            border: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="my-canvas">
+
+    </canvas>
+    <button id="up-btn">up</button>
+    <button id="down-btn">down</button>
+    <button id="left-btn">left</button>
+    <button id="right-btn">right</button>
+
+    <script src="./command_es5.js"></script>
+    <script>
+    var mario = new Role(200, 200, 'https://i.loli.net/2019/08/09/sqnjmxSZBdPfNtb.jpg')
+    var monster = new Role(160, 160, 'https://i.loli.net/2019/08/12/XCTzcdbhriLlskv.png')
+
+        // 设置按钮回调
+        var elementUp = document.getElementById('up-btn')
+        elementUp.onclick = function () {
+            mario.move(0, -CanvasStep)
+        }
+
+        var elementDown = document.getElementById('down-btn')
+        elementDown.onclick = function () {
+            mario.move(0, CanvasStep)
+        }
+
+        var elementLeft = document.getElementById('left-btn')
+        elementLeft.onclick = function () {
+            mario.move(-CanvasStep, 0)
+        }
+
+        var elementRight = document.getElementById('right-btn')
+        elementRight.onclick = function () {
+            mario.move(CanvasStep, 0)
+        }
+    </script>
+</body>
+</html>
